@@ -14,12 +14,15 @@ This is a full-stack traffic flow prediction application with a React frontend a
 2. **Create and activate virtual environment:**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
+   # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   or
+   pip install flask flask-cors pandas scikit-learn joblib
    ```
 
 4. **Train the model (if you have the dataset):**
